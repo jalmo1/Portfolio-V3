@@ -27,7 +27,10 @@ export default function Home() {
           <nav className="py-10 mb-12 flex justify-center">
             <ul className="flex items-center">
               <li>
-                <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="curser-pointer text-2xl" />
+                <BsFillMoonStarsFill
+                  onClick={() => setDarkMode(!darkMode)}
+                  className="curser-pointer text-2xl dark:text-white"
+                />
               </li>
               <li>
                 <a
@@ -39,18 +42,21 @@ export default function Home() {
               </li>
             </ul>
           </nav>
+
           <div className="text-center p-10">
             <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">
               Joshua Almodovar
             </h2>
-            <h3 className="text-2xl py-2 md:text-3xl">Front end Developer</h3>
-            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto">
+            <h3 className="text-2xl py-2 md:text-3xl dark:text-white">
+              Front end Developer
+            </h3>
+            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-200">
               I am growing my programming skills and learning new things daily!
               Welcome to my portfolio and please reach out if you would like to
               collaborate!
             </p>
           </div>
-          <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
+          <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-white">
             <AiFillGithub />
             <AiFillLinkedin />
           </div>
@@ -61,8 +67,8 @@ export default function Home() {
 
         <section className="min-h-screen py-3">
           <div className="text-center py-1">
-            <h3 className="text-3xl py-1">What I offer</h3>
-            <p className="text-md leading-8 text-gray-800">
+            <h3 className="text-3xl py-1 dark:text-white">What I offer</h3>
+            <p className="text-md leading-8 text-gray-800 dark:text-gray-200">
               In the beginning of my developer journey, I was learning Python to
               build back end servers and now I mainly use Javascript and React
               to create beautiful web applications.
@@ -73,7 +79,7 @@ export default function Home() {
             </p>
           </div>
           <div className="md:flex gap-10">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image
                 src={design}
                 width={100}
@@ -92,7 +98,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Adobe XD</p>
               <p className="text-gray-800 py-1">Figma</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image
                 src={code}
                 width={100}
@@ -109,7 +115,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Adobe XD</p>
               <p className="text-gray-800 py-1">Figma</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image
                 src={consulting}
                 width={100}
@@ -132,8 +138,8 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1">Portfolio</h3>
-            <p className="text-md leading-8 text-gray-800">
+            <h3 className="text-3xl py-1 dark:text-white">Portfolio</h3>
+            <p className="text-md leading-8 text-gray-800 dark:text-gray-200">
               In the beginning of my developer journey, I was learning Python to
               build back end servers and now I mainly use Javascript and React
               to create beautiful web applications.
