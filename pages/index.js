@@ -67,37 +67,50 @@ export default function Home() {
               <span className="text-teal-500"> open source</span> projects.
             </p>
           </div>
-          <div className="text-center py-5">
-            <Image
-              src={design}
-              width={100}
-              height={100}
-              className="mx-auto py-5"
-            />
-            <p>
-              I always strive to make my projects look modern with an strong
-              emphasis on designing UX/UI forward applications.
-            </p>
-            <Image
-              src={code}
-              width={100}
-              height={100}
-              className="mx-auto py-5"
-            />
-            <p>
-              Writing clean semantic code is something I strive to perfect
-              daily. Click my github link to checkout my projects and code.{" "}
-            </p>
-            <Image
-              src={consulting}
-              width={100}
-              height={100}
-              className="mx-auto py-5"
-            />
-            <p>
-              I am always willing to help anyone in need. I also like to consult
-              on projects and collaborate on projects.
-            </p>
+          <div>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+              <Image
+                src={design}
+                width={100}
+                height={100}
+                className="mx-auto pt-5"
+              />
+              <h3 className="text-lg font-medium pt-8 pb-2">
+                Beautiful designs
+              </h3>
+              <p>
+                I always strive to make my projects look modern with an strong
+                emphasis on designing UX/UI forward applications.
+              </p>
+              <h4 className="py-4 text-teal-600">Design tools I use:</h4>
+              <p className="text-gray-800 py-1">Photoshop</p>
+              <p className="text-gray-800 py-1">Adobe XD</p>
+              <p className="text-gray-800 py-1">Figma</p>
+            </div>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+              <Image
+                src={code}
+                width={100}
+                height={100}
+                className="mx-auto py-5"
+              />
+              <p>
+                Writing clean semantic code is something I strive to perfect
+                daily. Click my github link to checkout my projects and code.{" "}
+              </p>
+            </div>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+              <Image
+                src={consulting}
+                width={100}
+                height={100}
+                className="mx-auto py-5"
+              />
+              <p>
+                I am always willing to help anyone in need. I also like to
+                consult on projects and collaborate on projects.
+              </p>
+            </div>
           </div>
         </section>
       </main>
