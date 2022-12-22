@@ -93,7 +93,7 @@ export default function Home() {
             <p className="text-md leading-8 text-gray-800 md:text-lg dark:text-gray-200">
               I mainly offer front end services, such as wire framing, design,
               and actual front end development. I also can offer some backend
-              services such as custom API's and SQL servers to go along with the
+              services such as custom APIs and SQL servers to go along with the
               front end web app.
             </p>
           </div>
