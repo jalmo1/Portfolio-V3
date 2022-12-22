@@ -6,10 +6,6 @@ import devjosh from "../public/joshuarosa.png";
 import design from "../public/design.png";
 import code from "../public/code.png";
 import consulting from "../public/consulting.png";
-import web1 from "../public/robofriends.png";
-import web2 from "../public/dealsella1.png";
-import web5 from "../public/snaker.png";
-import web4 from "../public/web4.png";
 import { useState } from "react";
 
 export default function Home() {
@@ -60,8 +56,8 @@ export default function Home() {
               </span>
               and <span className="text-teal-600">MySQL.</span> I also have
               experience working with a big tech company and collaborating on
-              other group / personal projects. Feel free to connect on LinkedIn
-              via the icon below.
+              group projects. Feel free to connect on LinkedIn via the icon
+              below.
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-white">
@@ -92,9 +88,9 @@ export default function Home() {
             </h3>
             <p className="text-md leading-8 text-gray-800 md:text-lg dark:text-gray-200">
               I mainly offer front end services, such as wire framing, design,
-              and actual front end development. I also can offer some backend
-              services such as custom APIs and SQL servers to go along with the
-              front end web app.
+              and front end web development. I also offer some backend services
+              such as custom APIs and SQL servers to go along with the front end
+              web app I built for you.
             </p>
           </div>
           <div className="md:flex gap-10">
@@ -159,57 +155,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-        {/* <section>
-          <div>
-            <h3 className="text-2xl py-2 md:text-3xl dark:text-white">
-              Portfolio
-            </h3>
-            <p className="text-md leading-8 text-gray-800 md:text-lg dark:text-gray-200">
-              Below are a few of the projects I have built or collaborated on. I
-              have some projects from when I was attending a full stack bootcamp
-              and some personal projects as well. If you would like to see more,
-              feel free to click the GitHub icon at the top of the screen.
-            </p>
-          </div>
-          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1">
-              <Image
-                src={web1}
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                src={web2}
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                src={web5}
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                src={web4}
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-              />
-            </div>
-          </div>
-        </section> */}
       </main>
     </div>
   );
