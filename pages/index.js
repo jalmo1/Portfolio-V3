@@ -22,7 +22,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
+      <main className="bg-gradient-to-b from-white to-teal-100 bg-white px-10 md:px-20 lg:px-40 dark:bg-gradient-to-b dark:from-gray-900 dark:to-gray-600">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-center">
             <ul className="flex items-center">
