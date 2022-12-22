@@ -143,8 +143,9 @@ export default function Home() {
                 Consultations and Collaborations
               </h3>
               <p>
-                I love to get my hands dirty on cool projects and consult on
-                projects that so I can make someones website / app 100% better.
+                I enjoy getting my hands dirty on cool projects and consulting
+                for projects, so that I can help make someones website / app
+                better in the long run.
               </p>
               <h4 className="text-lg font-medium py-4 text-teal-600">
                 Collaboration tools I use:
