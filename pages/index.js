@@ -53,9 +53,15 @@ export default function Home() {
               Front end Developer
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-200">
-              I am growing my programming skills and learning new things daily!
-              Welcome to my portfolio! Please reach out via linkedin or from the
-              email on my resume if you would like to collaborate!
+              I am a Junior front end developer looking to built my network. I
+              am proficient in{" "}
+              <span className="text-teal-600">
+                HTML, CSS, Javascript, React, Node.js,
+              </span>
+              and <span className="text-teal-600">MySQL.</span> I also have
+              experience working with a big tech company and collaborating on
+              other group / personal projects. Feel free to connect on LinkedIn
+              via the icon below.
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-white">
@@ -85,13 +91,10 @@ export default function Home() {
               What I offer
             </h3>
             <p className="text-md leading-8 text-gray-800 md:text-lg dark:text-gray-200">
-              In the beginning of my developer journey, I was learning Python to
-              build back end servers and now I mainly use Javascript and React
-              to create beautiful web applications.
-              <br />I have experience with working with big
-              <span className="text-teal-500"> corporations</span> and also
-              collaborating on
-              <span className="text-teal-500"> open source</span> projects.
+              I mainly offer front end services, such as wire framing, design,
+              and actual front end development. I also can offer some backend
+              services such as custom API's and SQL servers to go along with the
+              front end web app.
             </p>
           </div>
           <div className="md:flex gap-10">
@@ -102,14 +105,14 @@ export default function Home() {
                 height={100}
                 className="mx-auto pt-5"
               />
-              <h3 className="text-lg font-medium pt-8 pb-2">
-                Beautiful designs
-              </h3>
+              <h3 className="text-xl font-medium pt-8 pb-2">Custom designs</h3>
               <p>
                 I always strive to make my projects look modern with an strong
                 emphasis on designing UX/UI forward applications.
               </p>
-              <h4 className="py-4 text-teal-600">Design tools I use:</h4>
+              <h4 className="text-lg py-4 font-medium text-teal-600">
+                Design tools I use:
+              </h4>
               <p className="text-gray-800 py-1">Photoshop</p>
               <p className="text-gray-800 py-1">Adobe XD</p>
               <p className="text-gray-800 py-1">Figma</p>
@@ -121,12 +124,14 @@ export default function Home() {
                 height={100}
                 className="mx-auto pt-5"
               />
-              <h3 className="text-lg font-medium pt-8 pb-2">Development</h3>
+              <h3 className="text-xl font-medium pt-8 pb-2">Development</h3>
               <p>
-                I love writing clean and easy to read code. I practice daily so
-                I can get better in my writing development skill.
+                I focus on writing clean and easy to read code. I practice daily
+                so I can get better in my development skills.
               </p>
-              <h4 className="py-4 text-teal-600">Development tools I use:</h4>
+              <h4 className="text-lg py-4 font-medium text-teal-600">
+                Development tools I use:
+              </h4>
               <p className="text-gray-800 py-1">Grammerly</p>
               <p className="text-gray-800 py-1">VSCode</p>
               <p className="text-gray-800 py-1">Stack Overflow</p>
@@ -138,16 +143,18 @@ export default function Home() {
                 height={100}
                 className="mx-auto pt-5"
               />
-              <h3 className="text-lg font-medium pt-8 pb-2">
+              <h3 className="text-xl font-medium pt-8 pb-2">
                 Consultations and Collaborations
               </h3>
               <p>
                 I love to get my hands dirty on cool projects and consult on
                 projects that so I can make someones website / app 100% better.
               </p>
-              <h4 className="py-4 text-teal-600">Collaboration tools I use:</h4>
+              <h4 className="text-lg font-medium py-4 text-teal-600">
+                Collaboration tools I use:
+              </h4>
               <p className="text-gray-800 py-1">Github</p>
-              <p className="text-gray-800 py-1">Stack Overflow (...Again)</p>
+              <p className="text-gray-800 py-1">Stack Overflow</p>
               <p className="text-gray-800 py-1">Discord</p>
             </div>
           </div>
