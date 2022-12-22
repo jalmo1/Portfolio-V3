@@ -6,9 +6,9 @@ import devjosh from "../public/joshuarosa.png";
 import design from "../public/design.png";
 import code from "../public/code.png";
 import consulting from "../public/consulting.png";
-import web1 from "../public/web1.png";
-import web2 from "../public/web2.png";
-import web5 from "../public/web5.png";
+import web1 from "../public/robofriends.png";
+import web2 from "../public/dealsella1.png";
+import web5 from "../public/snaker.png";
 import web4 from "../public/web4.png";
 import { useState } from "react";
 
@@ -35,7 +35,8 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
-                  href="#"
+                  href="https://docs.google.com/document/d/1l_GCNYcvThqNFziIVk0KUtepxCR_69g-/edit?usp=sharing&ouid=109829942098253021161&rtpof=true&sd=true"
+                  target="_blank"
                 >
                   Resume
                 </a>
@@ -52,13 +53,17 @@ export default function Home() {
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-200">
               I am growing my programming skills and learning new things daily!
-              Welcome to my portfolio and please reach out if you would like to
-              collaborate!
+              Welcome to my portfolio! Please reach out via linkedin or
+              from the email on my resume if you would like to collaborate!
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-white">
-            <AiFillGithub />
-            <AiFillLinkedin />
+            <a href="https://github.com/jalmo1" target="_blank">
+              <AiFillGithub />
+            </a>
+            <a href="https://www.linkedin.com/in/jalmo1/" target="_blank">
+              <AiFillLinkedin />
+            </a>
           </div>
           <div className="relative mx-auto rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
             <Image src={devjosh} layout="fill" objectFit="cover" />
@@ -67,8 +72,10 @@ export default function Home() {
 
         <section className="min-h-screen py-10">
           <div className="text-center py-10">
-            <h3 className="text-2xl py-2 md:text-3xl dark:text-white">What I offer</h3>
-            <p className="text-md leading-8 text-gray-800 dark:text-gray-200">
+            <h3 className="text-2xl py-2 md:text-3xl dark:text-white">
+              What I offer
+            </h3>
+            <p className="text-md leading-8 text-gray-800 md:text-lg dark:text-gray-200">
               In the beginning of my developer journey, I was learning Python to
               build back end servers and now I mainly use Javascript and React
               to create beautiful web applications.
@@ -109,7 +116,6 @@ export default function Home() {
               <p>
                 I love writing clean and easy to read code. I practice daily so
                 I can get better in my writing development skill.
-            
               </p>
               <h4 className="py-4 text-teal-600">Development tools I use:</h4>
               <p className="text-gray-800 py-1">Grammerly</p>
@@ -137,17 +143,16 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section>
+        {/* <section>
           <div>
-            <h3 className="text-2xl py-2 md:text-3xl dark:text-white">Portfolio</h3>
-            <p className="text-md leading-8 text-gray-800 dark:text-gray-200">
-              In the beginning of my developer journey, I was learning Python to
-              build back end servers and now I mainly use Javascript and React
-              to create beautiful web applications.
-              <br />I have experience with working with big
-              <span className="text-teal-500"> corporations</span> and also
-              collaborating on
-              <span className="text-teal-500"> open source</span> projects.
+            <h3 className="text-2xl py-2 md:text-3xl dark:text-white">
+              Portfolio
+            </h3>
+            <p className="text-md leading-8 text-gray-800 md:text-lg dark:text-gray-200">
+              Below are a few of the projects I have built or collaborated on. I
+              have some projects from when I was attending a full stack bootcamp
+              and some personal projects as well. If you would like to see more,
+              feel free to click the GitHub icon at the top of the screen.
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
@@ -188,7 +193,7 @@ export default function Home() {
               />
             </div>
           </div>
-        </section>
+        </section> */}
       </main>
     </div>
   );
