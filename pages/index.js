@@ -65,9 +65,9 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="min-h-screen py-3">
-          <div className="text-center py-1">
-            <h3 className="text-3xl py-1 dark:text-white">What I offer</h3>
+        <section className="min-h-screen py-10">
+          <div className="text-center py-10">
+            <h3 className="text-2xl py-2 md:text-3xl dark:text-white">What I offer</h3>
             <p className="text-md leading-8 text-gray-800 dark:text-gray-200">
               In the beginning of my developer journey, I was learning Python to
               build back end servers and now I mainly use Javascript and React
@@ -79,7 +79,7 @@ export default function Home() {
             </p>
           </div>
           <div className="md:flex gap-10">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 w-full dark:bg-white">
               <Image
                 src={design}
                 width={100}
@@ -98,24 +98,25 @@ export default function Home() {
               <p className="text-gray-800 py-1">Adobe XD</p>
               <p className="text-gray-800 py-1">Figma</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 w-full dark:bg-white">
               <Image
                 src={code}
                 width={100}
                 height={100}
                 className="mx-auto pt-5"
               />
-              <h3 className="text-lg font-medium pt-8 pb-2">Semantic Code</h3>
+              <h3 className="text-lg font-medium pt-8 pb-2">Development</h3>
               <p>
-                I always strive to make my projects look modern with an strong
-                emphasis on designing UX/UI forward applications.
+                I love writing clean and easy to read code. I practice daily so
+                I can get better in my writing development skill.
+            
               </p>
-              <h4 className="py-4 text-teal-600">Design tools I use:</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Adobe XD</p>
-              <p className="text-gray-800 py-1">Figma</p>
+              <h4 className="py-4 text-teal-600">Development tools I use:</h4>
+              <p className="text-gray-800 py-1">Grammerly</p>
+              <p className="text-gray-800 py-1">VSCode</p>
+              <p className="text-gray-800 py-1">Stack Overflow</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 w-full dark:bg-white">
               <Image
                 src={consulting}
                 width={100}
@@ -123,22 +124,22 @@ export default function Home() {
                 className="mx-auto pt-5"
               />
               <h3 className="text-lg font-medium pt-8 pb-2">
-                Consultation help
+                Consultations and Collaborations
               </h3>
               <p>
-                I always strive to make my projects look modern with an strong
-                emphasis on designing UX/UI forward applications.
+                I love to get my hands dirty on cool projects and consult on
+                projects that so I can make someones website / app 100% better.
               </p>
-              <h4 className="py-4 text-teal-600">Design tools I use:</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Adobe XD</p>
-              <p className="text-gray-800 py-1">Figma</p>
+              <h4 className="py-4 text-teal-600">Collaboration tools I use:</h4>
+              <p className="text-gray-800 py-1">Github</p>
+              <p className="text-gray-800 py-1">Stack Overflow (...Again)</p>
+              <p className="text-gray-800 py-1">Discord</p>
             </div>
           </div>
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-white">Portfolio</h3>
+            <h3 className="text-2xl py-2 md:text-3xl dark:text-white">Portfolio</h3>
             <p className="text-md leading-8 text-gray-800 dark:text-gray-200">
               In the beginning of my developer journey, I was learning Python to
               build back end servers and now I mainly use Javascript and React
