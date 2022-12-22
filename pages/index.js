@@ -37,6 +37,7 @@ export default function Home() {
                   className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
                   href="https://docs.google.com/document/d/1l_GCNYcvThqNFziIVk0KUtepxCR_69g-/edit?usp=sharing&ouid=109829942098253021161&rtpof=true&sd=true"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Resume
                 </a>
@@ -53,15 +54,23 @@ export default function Home() {
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-200">
               I am growing my programming skills and learning new things daily!
-              Welcome to my portfolio! Please reach out via linkedin or
-              from the email on my resume if you would like to collaborate!
+              Welcome to my portfolio! Please reach out via linkedin or from the
+              email on my resume if you would like to collaborate!
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-white">
-            <a href="https://github.com/jalmo1" target="_blank">
+            <a
+              href="https://github.com/jalmo1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <AiFillGithub />
             </a>
-            <a href="https://www.linkedin.com/in/jalmo1/" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/jalmo1/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <AiFillLinkedin />
             </a>
           </div>
